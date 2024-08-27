@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment-3</title>
+  <!-- Tailwind css and DaisyUi cdn  -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google font  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  <!-- fontawesome cdn  -->
+  <script src="https://kit.fontawesome.com/aed21733b2.js" crossorigin="anonymous"></script>
+  <!-- fevicon link  -->
+   <link rel="shortcut icon" href="./assets/icons8-home-design-67.png" type="image/x-icon">
+  <!-- Tailwind css configaration  -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary:'#212121',
+            secondary:' #494949',
+            thard:'#ABEF5F',
+            fourth:'#E9E9E9',
+            fiveth:'#737373',
+            fontFamily:{
+              Manrope:'Manrope',
+            },
+            backgroundImage:{
+              bgimage:"url('./assets/bg.jpg')",
+              bgimage2: "url('./assets/img1.png')",
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class=" font-Manrope w-11/12 mx-auto">
+  <div class="bg-secondary text-fourth">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde modi optio ex quod asperiores, ad est quia explicabo in ullam.</div>
+  <div class="bg-url('./assets/bg.jpg') h-16 w-16 ">one</div>
+  <div><img src="./assets/img1.png" alt=""></div>
+</body>
+</html>
